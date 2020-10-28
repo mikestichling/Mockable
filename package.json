@@ -4,7 +4,18 @@
   "version": "1.0.10",
   "url": "https://github.com/ricardo-rossi/Mockable",
   "keywords": [
-    "http", "api", "mock", "server", "rest", "restful", "json", "GET", "POST", "PUT", "DELETE", "PATCH"
+    "http",
+    "api",
+    "mock",
+    "server",
+    "rest",
+    "restful",
+    "json",
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE",
+    "PATCH"
   ],
   "author": {
     "name": "Ricardo Rossi",
