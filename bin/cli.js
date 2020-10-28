@@ -56,8 +56,9 @@ if (argv.cache) {
 if (argv.headers) {
   (options = options || {}).headers = JSON.parse(argv.headers);
 }
+console.log(`> Headers are: `, argv.headers);
 
-var server = new mockable.Server(+argv.port, dir);
+var server = new mockable.Server(+argv.port, dir, options);
 server.run();
 
 console.log('> serving "' + dir + '" at http://127.0.0.1:' + argv.port);
